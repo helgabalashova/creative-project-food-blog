@@ -1,0 +1,21 @@
+html {
+    margin-top: 20px;
+}
+
+.logo {
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    font-size: 20px;
+}
+
+.logo img {
+    width: 80px;
+}
+
+.navbar-toggler {
+    background-color: #FD9103;
+}
+
+.navbar-toggler-icon {
+    color: white;
+}
