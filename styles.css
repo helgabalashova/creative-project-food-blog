@@ -154,9 +154,6 @@ main {
     color: white;
     padding: 5px 20px;
 }
-.orange-button a:link {
-    color: white;
-}
 
 .images {
     display: grid;
@@ -182,7 +179,7 @@ a:link {
 }
 
 a:hover {
-    color: #FD9103;
+    color: black;
 }
 
 .about-slider {
@@ -203,6 +200,13 @@ a:hover {
 
 .about {
     box-shadow: 2px 2px 10px lightgrey;
+}
+
+.tips-h2, .tips-p {
+    color: black!important;
+}
+.white-color {
+    color: white!important;
 }
 
 @media (max-width: 1000px) {
@@ -228,8 +232,12 @@ a:hover {
         background-attachment: unset;
     }
 
-    p, a, h1, h2, h3, li, a:link {
-        font-size: 2em;
+    p, a, h1, h2, h3, li {
+        font-size: 1.5em;
+    }
+
+    .tips-h2 {
+        font-size: 20px!important;
     }
 
     footer a:link {
