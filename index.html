@@ -1,34 +1,103 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Olya's Food Blog</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-        <link href="styles.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Catamaran|Satisfy&display=swap" rel="stylesheet">
-    </head>
 
-    <body>
-        <header>
-            <div class="logo">
-                <img src="images/food.png" alt="Olya's Food Blog">
-                <p>Olya's Food Blog</p>
-            </div>
-            <nav class="navbar navbar-expand-lg justify-content-center">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                  <div class="navbar-nav">
-                    <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="#">Features</a>
-                    <a class="nav-item nav-link" href="#">Pricing</a>
-                    <a class="nav-item nav-link disabled" href="#">Disabled</a>
-                  </div>
-                </div>
-              </nav>
-        </header>
-    </body>
+<head>
+  <title>Olya's Food Blog</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+  <link href="styles.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Catamaran|Satisfy&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <img src="images/food.png" alt="Olya's Food Blog">
+      <p>Olya's Food Blog</p>
+    </div>
+    <!-- Navigation -->
+    <div class="">
+      <nav class="navbar navbar-expand-lg navbar-light justify-content-center">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+          <div class="navbar-nav justify-content-center">
+            <a class="nav-item nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#">Features</a>
+            <a class="nav-item nav-link" href="#">Pricing</a>
+            <a class="nav-item nav-link" href="#">Disabled</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- Slider -->
+    <div class="slider">
+      <div class="todays-pick-heading">
+        <span>today's pick</span>
+      </div>
+      <div class="todays-pick-content">
+        <h2>10 Tips: Be Food Safe</h2>
+        <p>January 31, 2020</p>
+      </div>
+    </div>
+  </header>
+
+  <div class="food-journal">
+    <div class="heading">
+      <h2>----Food Journal----</h2>
+    </div>
+    <div class="breakfast">
+      <img class="blog-image" src="images/lunch.jpg" alt="Best Places for breakfast">
+      <h3>Best Mexican Restaurants in America</h3>
+    </div>
+    <div>
+      <img class="blog-image" src="images/sushi.jpeg" alt="Lunch">
+      <h3>Why Sushi is my Favorite Food</h3>
+    </div>
+    <div>
+      <img class="blog-image" src="images/burger.jpeg" alt="Lunch">
+      <h3>Home Made Burgers are the Best!</h3>
+    </div>
+  </div>
+  <main>
+    <div class="popular-recipes">
+      <h2 class="text-center mt-5">Popular Recipes</h2>
+      <div class="recipe-content">
+        <div class="bg-white pb-4 cupcakes">
+          <img class="img-responsive" src="images/cupcakes-2.jpeg" alt="Cupcakes">
+          <h3 class="text-left pl-3 pt-3">Killer Cupcakes for Your Family</h3>
+          <p class="pl-3 text-left">Preheat oven to 350. Line standard muffin tins with paper cupcake liners. In the top
+            part of a double
+            boiler over simmering water, melt the chocolate with the vanilla and butter...</p>
+          <button class="orange-button ml-3">Read More</button>
+        </div>
+        <div class="images">
+          <img class="img-responsive rec-image" src="images/pic-1.jpeg" alt="food">
+          <img class="img-responsive rec-image" src="images/pic-2.jpeg" alt="food">
+          <img class="img-responsive rec-image" src="images/pic-3.jpeg" alt="food">
+          <img class="img-responsive rec-image" src="images/pic-4.jpeg" alt="food">
+          <img class="img-responsive rec-image" src="images/pic-5.jpeg" alt="food">
+          <img class="img-responsive rec-image" src="images/pic-6.jpeg" alt="food">
+        </div>
+      </div>
+    </div>
+    <div class="last-image">
+    </div>
+  </main>
+  <footer>
+    <p class="text-center">Olya Balashova Food Blog | <a href="https://github.com/helgabalashova">Git Hub</a></p>
+  </footer>
+</body>
+
 </html>

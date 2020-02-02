@@ -1,5 +1,16 @@
 html {
-    margin-top: 20px;
+    font-family: 'Catamaran', sans-serif;
+    overflow: auto;
+    background-color: #F5F5F3;
+}
+
+body {
+    background-color: #F5F5F3;
+}
+
+header {
+    background-color: white;
+    padding-top: 20px;
 }
 
 .logo {
@@ -12,10 +23,170 @@ html {
     width: 80px;
 }
 
-.navbar-toggler {
-    background-color: #FD9103;
+.nav-link {
+    text-align: center;
 }
 
-.navbar-toggler-icon {
+.nav-item {
+    font-family: 'Catamaran', sans-serif;
+    color: black!important;
+    padding: 5px 30px!important;
+    font-weight: bold;
+}
+
+.nav-item:hover {
+    color: #FD9103!important;
+}
+
+.slider {
+    background-image: url("images/chocolate.jpeg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 600px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(24, 1fr);
+    margin-bottom: -50px;
+}
+
+.todays-pick-heading {
+    background-color: #FD9103;
+    text-transform: uppercase;
     color: white;
+    padding: 10px;
+    border-radius: 3px;
+    grid-column: 6/8;
+    grid-row: 6/8;
+    text-align: center;
+    z-index: 1000;
+    
+}
+
+.todays-pick-content {
+    background-color: white;
+    padding: 5%;
+    border-radius: 3px;
+    grid-column: 5/9;
+    grid-row: 7/15;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h2, h3 {
+    font-family: 'Catamaran', sans-serif;
+}
+
+h3 {
+    /* font-family: 'Satisfy', cursive; */
+    font-size: 1.3em;
+    text-align: center;
+    margin-top: 15px;
+}
+
+main {
+    margin-bottom: -50px;
+}
+
+.site-content {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.food-journal {
+    margin-top: -70px!important;
+    background-color: white;
+    overflow: auto;
+    z-index: 1000;
+    position: relative;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 2px 10px lightgrey;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 30px 0;
+
+}
+
+.heading {
+    grid-column: 1/-1;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.food-journal > div:not(:first-child){
+    padding: 30px;
+}
+
+.blog-image {
+    width: 100%;
+}
+
+.popular-recipes {
+    margin-top: 80px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.recipe-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    padding: 40px 0px;
+    column-gap: 40px;
+}
+
+.cupcakes {
+    box-shadow: 2px 2px 10px lightgrey;
+}
+
+.img-responsive {
+    max-width: 100%;
+}
+
+.orange-button {
+    background-color: #FD9103;
+    color: white;
+    padding: 5px 20px;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.last-image {
+    height: 500px;
+    background-image: url("images/footer-image.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+@media (max-width: 1000px) {
+    .todays-pick-heading {
+        grid-column: 4/10;
+    }
+    .todays-pick-content {
+        grid-column: 2/12;
+    }
+    .food-journal > div {
+        grid-column: 1/-1;
+    }
+
+    .cupcakes {
+        grid-column: 1/-1;
+    }
+
+    .images {
+        display: none;
+    }
 }
