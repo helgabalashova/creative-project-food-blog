@@ -223,4 +223,16 @@ a:hover {
     .images {
         display: none;
     }
+
+    .about-slider, .slider, .recipes-slider {
+        background-attachment: unset;
+    }
+
+    p, a, h1, h2, h3, li, a:link {
+        font-size: 2em;
+    }
+
+    footer a:link {
+        font-size: 30px;
+    }
 }
