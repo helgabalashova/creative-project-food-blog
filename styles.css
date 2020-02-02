@@ -154,6 +154,9 @@ main {
     color: white;
     padding: 5px 20px;
 }
+.orange-button a:link {
+    color: white;
+}
 
 .images {
     display: grid;
@@ -172,6 +175,34 @@ main {
 
 footer {
     margin-top: 80px;
+}
+
+a:link {
+    color: black;
+}
+
+a:hover {
+    color: #FD9103;
+}
+
+.about-slider {
+    height: 400px;
+    background-image: url("images/about.jpeg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.recipes-slider {
+    height: 400px;
+    background-image: url("images/recipes.jpeg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.about {
+    box-shadow: 2px 2px 10px lightgrey;
 }
 
 @media (max-width: 1000px) {
