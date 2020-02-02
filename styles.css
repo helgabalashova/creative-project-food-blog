@@ -170,6 +170,9 @@ main {
     background-attachment: fixed;
 }
 
+footer {
+    margin-top: 80px;
+}
 
 @media (max-width: 1000px) {
     .todays-pick-heading {
